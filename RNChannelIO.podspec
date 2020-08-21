@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   
   s.dependency "React"
-  s.dependency "ChannelIO"
+  s.dependency "ChannelIO", :git => "https://github.com/zoyi/react-native-channel-io.git", :branch => "fix/imageAsset"
 end
 
   
